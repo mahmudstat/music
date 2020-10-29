@@ -63,7 +63,7 @@ Amplitude.init({
 			"name": "Risin' High (feat Raashan Ahmad)",
 			"artist": "Ancient Astronauts",
 			"album": "We Are to Answer",
-			"url": "../songs/Ancient Astronauts - Risin' High (feat Raashan Ahmad).mp3",
+			"url": "file:///C:/Users/PCCLAP-007/Documents/music/sample/elo_ke_kabar.mp3",
 			"cover_art_url": "../album-art/we-are-to-answer.jpg"
 		},
 		{
