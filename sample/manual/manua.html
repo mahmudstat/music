@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+#playlist {
+    display:table;
+}
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+}
+#playlist li:hover{
+    color:blue;                        
+}
+#videoarea {
+    float:left;
+    width:640px;
+    height:480px;
+    margin:10px;    
+    border:1px solid silver;
+}​
+
+</style>
+
+<script>
+$(function() {
+    $("#playlist li").on("click", function() {
+        $("#videoarea").attr({
+            "src": $(this).attr("movieurl"),
+            "poster": "",
+            "autoplay": "autoplay"
+        })
+    })
+    $("#videoarea").attr({
+        "src": $("#playlist li").eq(0).attr("movieurl"),
+        "poster": $("#playlist li").eq(0).attr("moviesposter")
+    })
+})​
+
+</script>
+</head>
+
+<body>
+
+<audio id="videoarea" controls="controls" poster="" src=""></audio>
+
+<ul id="playlist">
+    <li movieurl="https://github.com/mahmudstat/music/raw/main/sample/cokh_bujunle.mp3" moviesposter="https://github.com/mahmudstat/music/raw/main/cover.jpg">First</li>
+    <li movieurl="https://github.com/mahmudstat/music/raw/main/sample/elo_ke_kabar.mp3">Second</li>
+</ul>
+
+
+</body>
+</html>
