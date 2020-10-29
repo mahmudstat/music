@@ -1,4 +1,18 @@
 audio {
   width:79%;
   float: center;
+  text-align: center;
+}
+
+li.solid {
+  outline-style: solid;
+  color: green;
+}
+
+div {
+  background-color: lightgrey;
+  width: 150px;
+  border: 15px solid green;
+  padding: 10px;
+  margin: 5px;
 }
