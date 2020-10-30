@@ -1,6 +1,6 @@
 var audio = document.getElementById("audio");
 var tracks = {
-    list: ["songs/group/ujjibon/protyashar_alo/01 theme_and ei mati ful.mp3", "songs/group/ujjibon/protyashar_alo/02 noyonaviram.mp3", "songs/group/ujjibon/protyashar_alo/03 dur arober.mp3"], //Put any tracks you want in this array
+    list: ["https://github.com/mahmudstat/music/raw/main/songs/group/ujjibon/protyashar_alo/01%20theme_and%20ei%20mati%20ful.mp3", "https://github.com/mahmudstat/music/raw/main/songs/group/ujjibon/protyashar_alo/02 noyonaviram.mp3", "https://github.com/mahmudstat/music/raw/main/songs/group/ujjibon/protyashar_alo/03 dur arober.mp3"], //Put any tracks you want in this array
     index: 0,
     next: function() {
         if (this.index == this.list.length - 1) this.index = 0;
