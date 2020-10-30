@@ -1,0 +1,9 @@
+book_filename: "song"
+language:
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+output_dir: "docs"
+chapter_name: ""
+repo: 
+new_session: yes
