@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Songs</title>
+  <title>2 উজ্জীবন 2 | Songs</title>
   <meta name="description" content="Listen to songs while working" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Songs" />
+  <meta property="og:title" content="2 উজ্জীবন 2 | Songs" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Songs" />
+  <meta name="twitter:title" content="2 উজ্জীবন 2 | Songs" />
   
   <meta name="twitter:description" content="Listen to songs while working" />
   
@@ -24,15 +24,15 @@
 <meta name="author" content="The Great Song Listener" />
 
 
-<meta name="date" content="2020-10-31" />
+<meta name="date" content="2020-10-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="group.html"/>
 
-<link rel="next" href="group.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -78,6 +78,7 @@
 <li class="chapter" data-level="1.1.1" data-path="group.html"><a href="group.html#প্রত্যাশার-আলো"><i class="fa fa-check"></i><b>1.1.1</b> প্রত্যাশার আলো</a></li>
 </ul></li>
 </ul></li>
+<li class="chapter" data-level="2" data-path="ujj.html"><a href="ujj.html"><i class="fa fa-check"></i><b>2</b> উজ্জীবন 2</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -98,28 +99,65 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Songs</h1>
-<p class="author"><em>The Great Song Listener</em></p>
-<p class="date"><em>2020-10-31</em></p>
-</div>
-<div id="শুরু" class="section level1 unnumbered">
-<h1>শুরু</h1>
-<div id="চোখ-বুঁজিলেই-দুনিয়া-আন্ধার" class="section level2">
-<h2><span class="header-section-number">0.1</span> চোখ বুঁজিলেই দুনিয়া আন্ধার</h2>
-<audio controls autoplay loop>
-<source src="https://github.com/mahmudstat/music/raw/main/sample/cokh_bujunle.mp3"/>
-</audio>
+<div id="ujj" class="section level1">
+<h1><span class="header-section-number">2</span> উজ্জীবন 2</h1>
+<pre><code>&lt;script src=&quot;js/yuki.js&quot;&gt;&lt;/script&gt;</code></pre>
+<p><link rel="stylesheet" href="css/style.css"></p>
+<div class="c-containter">
+<pre><code>    &lt;div class=&quot;music-container&quot;&gt;
+        &lt;section class=&quot;album-cover&quot;&gt;
+            
+            &lt;button class=&quot;arrow left&quot; id=&quot;prev&quot;&gt;
+                &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/arrow_left.svg&quot; alt=&quot;Next Music&quot;&gt;
+            &lt;/button&gt;
+            &lt;img src=&quot;http://res.cloudinary.com/dkzj4hdmd/image/upload/v1536400483/cover_yz2mak.jpg&quot; class=&quot;cover&quot; alt=&quot;From One To Nine by Marcel Pequel&quot;&gt;
+            
+            &lt;button class=&quot;arrow right&quot; id=&quot;next&quot;&gt;
+                &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/arrow_right.svg&quot; alt=&quot;Next Music&quot;&gt;
+            &lt;/button&gt;
+        &lt;/section&gt;
+        &lt;section class=&quot;music-player&quot;&gt;
+            &lt;h1 class=&quot;music-player__title&quot;&gt;&lt;/h1&gt;
+            &lt;h2 class=&quot;music-player__author&quot;&gt;&lt;/h2&gt;
+            &lt;div class=&quot;music-time&quot;&gt;
+                &lt;p class=&quot;music-time__current&quot;&gt;&lt;/p&gt;
+                &lt;p class=&quot;music-time__last&quot;&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;music-bar&quot; id=&quot;progress&quot;&gt;
+                &lt;div id=&quot;length&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;music-order&quot;&gt;
+                &lt;div class=&quot;music-order__loop is-loop&quot; id=&quot;loop&quot;&gt;
+                    &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/loop.svg&quot; alt=&quot;Loop music&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;music-order__shuffle&quot; id=&quot;shuffle&quot;&gt;
+                    &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/shuffle.svg&quot; alt=&quot;Shuffle music&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;music-control&quot;&gt;
+                &lt;div class=&quot;music-control__backward&quot; id=&quot;backward&quot;&gt;
+                    &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/backward.svg&quot; alt=&quot;Backward&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;music-control__play&quot; id=&quot;play&quot;&gt;
+                    &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/play.svg&quot; alt=&quot;Play&quot; class=&quot;play&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;music-control__forward&quot; id=&quot;forward&quot;&gt;
+                    &lt;img src=&quot;https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/forward.svg&quot; alt=&quot;Forward&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;
+    &lt;p class=&quot;disclaimer&quot;&gt;Music by Marcel Pequel and audio from &lt;a href=&quot;http://freemusicarchive.org/music/Marcel_Pequel/From_One_To_Nine/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Free Music Archive&lt;/a&gt;. Design idea from &lt;a href=&quot;https://dribbble.com/shots/2315906-Music-player-PSD-freebie-dailyui-Day-009&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dima Blover&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
 
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
+<a href="group.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="group.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
