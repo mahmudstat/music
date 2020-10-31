@@ -3,7 +3,9 @@ title: "Songs"
 author: "The Great Song Listener"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output:
+  bookdown::gitbook:
+    css: style.css
 documentclass: book
 biblio-style: apalike
 link-citations: yes
