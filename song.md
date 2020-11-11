@@ -35,14 +35,6 @@ description: "Listen to songs while working"
   <source src="" />
     </audio>
    <div onclick="klikaj()"><span>Next</span></div>
-<script>
-function klikaj() {
-    tracks.next();
-    audio.src = tracks.play();
-    audio.load();
-    audio.play();
-}
-</script>
     <script src="js/ujjibon.js"></script>
 
 
