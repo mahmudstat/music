@@ -20,4 +20,11 @@ audio.onended = function() {
     audio.play();
 }
 
+function klikaj() {
+    tracks.next();
+    audio.src = tracks.play();
+    audio.load();
+    audio.play();
+}
+
 audio.src = tracks.play();
