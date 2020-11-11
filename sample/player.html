@@ -1,0 +1,149 @@
+<p>Please select a song from the list
+<select name="mylist" id="mylist" onchange="if (!window.__cfRLUnblockHandlers) return false; playAudio();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">
+<option id="1" value="https://imajineweb.com/wp-content/themes/ultima-child/audio/mp3-sample.mp3">MP3</option>
+<option id="2" value="https://imajineweb.com/wp-content/themes/ultima-child/audio/wav-sample.wav">WAV</option>
+<option id="3" value="https://imajineweb.com/wp-content/themes/ultima-child/audio/oog-sample.ogg">OOG</option>
+</select></p>
+<br />
+&nbsp;
+<audio id="myaudio" name="myaudio" preload="auto" controls="controls">
+<source id="1" src="https://imajineweb.com/wp-content/themes/ultima-child/audio/mp3-sample.mp3" type="audio/mpeg">
+<source id="2" src=https://imajineweb.com/wp-content/themes/ultima-child/"audio/wav-sample.wav" type="audio/wav">
+<source id="3" src="https://imajineweb.com/wp-content/themes/ultima-child/audio/o0g-sample.ogg" type="audio/ogg">
+HTML5 audio not supported
+</audio><br />
+<button id="play" onclick="if (!window.__cfRLUnblockHandlers) return false; playAudio();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Play/Pause</button> <button onclick="if (!window.__cfRLUnblockHandlers) return false; rewindAudio();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Rewind</button> <button onclick="if (!window.__cfRLUnblockHandlers) return false; forwardAudio();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Fast forward</button><button onclick="if (!window.__cfRLUnblockHandlers) return false; Previous();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Previous</button> <button onclick="if (!window.__cfRLUnblockHandlers) return false; Next();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Next</button><button onclick="if (!window.__cfRLUnblockHandlers) return false; AudioStop();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Stop</button><button onclick="if (!window.__cfRLUnblockHandlers) return false; restartAudio();" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Restart</button><button onClick="if (!window.__cfRLUnblockHandlers) return false; ”document.getElementById(&quot;myaudio&quot;).volume+=0.1?" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Vol.Up</button><button onClick="if (!window.__cfRLUnblockHandlers) return false; ”document.getElementById(&quot;myaudio&quot;).volume-=0.1?" data-cf-modified-893d16fd9041b1eb9d8a2798-="">Vol.down</button>
+
+<script type="893d16fd9041b1eb9d8a2798-text/javascript"> // JavaScript Document
+var currentFile ="" ; //Global variable to track current file
+var oAudio = document.getElementById("myaudio");
+var btn = document.getElementById("play");
+
+function playAudio(){
+// Check for audio element support.
+if (window.HTMLAudioElement) {
+try {
+var oAudio = document.getElementById("myaudio");
+var btn = document.getElementById("play");
+var audioURL = document.getElementById("mylist").value; //Skip loading if current file hasn’t changed.
+
+if (audioURL!== currentFile) {
+oAudio.src = audioURL;
+currentFile = audioURL;
+}// Tests the paused attribute and set state.
+if (oAudio.paused) {
+oAudio.play();
+btn.textContent = "Pause";
+}
+else {
+oAudio.pause();
+btn.textContent = "Play";
+}
+}
+catch (e) {
+// Fail silently but show in F12 developer tools console
+if(window.console && console.error("Error:"+ e));
+}
+}
+}
+
+function rewindAudio() {
+// Check for audio element support.
+if (window.HTMLAudioElement) {
+	try {
+		var oAudio = document.getElementById("myaudio");
+		oAudio.currentTime -= 30.0;
+		}
+	catch (e) {
+		// Fail silently but show in F12 developer tools console
+		if(window.console && console.error("Error:" + e));
+		}
+	}
+}
+function forwardAudio(){
+// Fast forwards the audio file by 30 seconds. function forwardAudio() {// Check for audio element support.
+	if (window.HTMLAudioElement) {
+		try {
+		var oAudio = document.getElementById("myaudio");
+		oAudio.currentTime += 30.0;
+			}
+		catch (e) {
+		// Fail silently but show in F12 developer tools console
+		if(window.console && console.error("Error:" + e));
+		}
+	}
+}
+function restartAudio() {
+var btn = document.getElementById("play");
+// Check for audio element support.
+if (window.HTMLAudioElement) {
+try {
+var oAudio = document.getElementById("myaudio");
+//oAudio.currentTime = 0;
+var lb = document.getElementById("mylist");
+oAudio.src=lb.value;
+oAudio.play();
+btn.textContent = "Pause";
+}
+catch (e) {
+// Fail silently but show in F12 developer tools console
+if(window.console && console.error("Error:" + e));
+}
+}
+}
+function AudioStop()
+{
+var oAudio = document.getElementById("myaudio");
+var btn = document.getElementById("play");
+btn.textContent = "Play";
+var lb = document.getElementById("mylist");
+oAudio.src=lb.value;
+oAudio.Stop();
+}
+//function to select previous song
+function Previous()
+{
+var oAudio = document.getElementById("myaudio");
+var btn = document.getElementById("play");
+var lb = document.getElementById("mylist");
+var curfile= lb.value; 
+for(i=0; i<=lb.length; i++) {
+if(curfile== lb.options[i].value){
+if(i!=0){ //To check the beginning of the LIST OF FILES
+j=i-1; // points to the previous file id
+oAudio.src=lb.options[j].value;
+oAudio.play();
+lb.options[j].selected=true;
+btn.textContent = "Pause";
+}
+else{ // If curfile is the first file in the list of files
+btn.textContent = "Play";
+window.alert("This is the first song");
+}
+}
+}
+}
+// Function to select next song
+function Next()
+{
+var oAudio = document.getElementById("myaudio");
+var btn = document.getElementById("play");
+var lb = document.getElementById("mylist");
+var curfile= lb.value;
+var count=lb.options.length // To count the number of files/* please note that counting starts from 1 whereas array options[] index starts from zero*/
+if(curfile!=lb.options[count-1].value){
+for(i=0; i<lb.options.length; i++){
+if(curfile==lb.options[i].value){
+j=i+1;
+oAudio.src=lb.options[j].value;
+oAudio.play();
+lb.options[j].selected=true;
+btn.textContent = "Pause";
+}
+}
+}
+else{
+window.alert("This is the last song");
+btn.textContent="Play";}
+}
+ </script>
