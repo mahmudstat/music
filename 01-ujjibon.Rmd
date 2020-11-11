@@ -1,15 +1,19 @@
-# (PART) শিল্পীগোষ্ঠী {-} 
+# শিল্পীগোষ্ঠী {#group} 
 
+## উজ্জীবন 
 
-# উজ্জীবন  {-}
-
-উজ্জীবন শিল্পীগোষ্ঠী 
-
-## প্রত্যাশার আলো  {-}
+### প্রত্যাশার আলো 
 
 <audio id="audio" controls autoplay>
   <source src="" />
     </audio>
    <div onclick="klikaj()"><span>Next</span></div>
-    <script src="js/ujjibon.js"></script>
-
+<script>
+function klikaj() {
+    tracks.next();
+    audio.src = tracks.play();
+    audio.load();
+    audio.play();
+}
+</script>
+    <script src="js/pralo.js"></script>
