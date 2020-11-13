@@ -3,7 +3,7 @@
   {
     id: 1,
     url:
-    "../../songs/group/bikolpo/sonar_nolok/01 Allah namer.mp3",
+    "https://github.com/mahmudstat/music/raw/main/songs/group/bikolpo/sonar_nolok/01%20Allah%20namer.mp3",
     author: "Marcel Pequel",
     title: "One",
     cover:
