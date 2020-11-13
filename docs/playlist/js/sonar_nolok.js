@@ -3,7 +3,7 @@
   {
     id: 1,
     url:
-    "https://github.com/mahmudstat/music/raw/main/songs/group/bikolpo/sonar_nolok/01%20Allah%20namer.mp3",
+    "../songs/group/bikolpo/sonar_nolok/01_Allah_namer.mp3",
     author: "Marcel Pequel",
     title: "One",
     cover:
@@ -12,7 +12,7 @@
   {
     id: 2,
     url:
-    "../../songs/group/bikolpo/sonar_nolok/02 amar mayer.mp3",
+    "../songs/group/bikolpo/sonar_nolok/02_amar_mayer.mp3",
     author: "Marcel Pequel",
     title: "Two",
     cover:
@@ -21,7 +21,7 @@
   {
     id: 3,
     url:
-    "../../songs/group/bikolpo/sonar_nolok/03_tumi_ene_dile.mp3",
+    "../songs/group/bikolpo/sonar_nolok/03_tumi_ene_dile.mp3",
     author: "Marcel Pequel",
     title: "Three",
     cover:
@@ -30,7 +30,7 @@
   {
     id: 4,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_04_-_Four.mp3",
+    "../songs/group/bikolpo/sonar_nolok/04_papi_ami.mp3",
     author: "Marcel Pequel",
     title: "Four",
     cover:
@@ -39,7 +39,7 @@
   {
     id: 5,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_05_-_Five.mp3",
+    "../songs/group/bikolpo/sonar_nolok/05_guchiye_rakho.mp3",
     author: "Marcel Pequel",
     title: "Five",
     cover:
@@ -48,7 +48,7 @@
   {
     id: 6,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_06_-_Six.mp3",
+    "../songs/group/bikolpo/sonar_nolok/06_provu_tumi.mp3",
     author: "Marcel Pequel",
     title: "Six",
     cover:
@@ -57,7 +57,7 @@
   {
     id: 7,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_07_-_Seven.mp3",
+    "../songs/group/bikolpo/sonar_nolok/07_ami_dhonyo.mp3",
     author: "Marcel Pequel",
     title: "Seven",
     cover:
@@ -66,7 +66,7 @@
   {
     id: 8,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_08_-_Eight.mp3",
+    "../songs/group/bikolpo/sonar_nolok/08_ei_dhoroni.mp3",
     author: "Marcel Pequel",
     title: "Eight",
     cover:
@@ -75,7 +75,7 @@
   {
     id: 9,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_09_-_Nine.mp3",
+    "../songs/group/bikolpo/sonar_nolok/09_vati_ganger.mp3",
     author: "Marcel Pequel",
     title: "Nine",
     cover:
