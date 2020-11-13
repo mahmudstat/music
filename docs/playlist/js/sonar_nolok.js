@@ -14,7 +14,7 @@
     url:
     "../songs/group/bikolpo/sonar_nolok/02_amar_mayer.mp3",
     author: "সোনার নোলক",
-    title: "Two",
+    title: "2",
     cover:
     "../img/player/music.jpg"},
 
@@ -145,7 +145,7 @@
     if (!isPlaying) {
       // console.log('play');
       e.target.src =
-      "../img/player/play.svg";
+      "../img/player/pause.svg";
       e.target.alt = "Pause";
       isPlaying = true;
       document.getElementById(currentAudio).play();
@@ -153,7 +153,7 @@
     } else {
       // console.log('pause');
       e.target.src =
-      "../img/player/pause.svg";
+      "../img/player/play.svg";
       e.target.alt = "Play";
       document.getElementById(currentAudio).pause();
       isPlaying = false;
