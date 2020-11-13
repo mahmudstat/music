@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Music Player</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="top.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+     <div data-includeHTML="header.html"></div>
+</header>
+<main>
+    <div>
+
+<!-- partial:index.partial.html -->
+<div class="c-containter">
+        <div class="music-container">
+            <section class="album-cover">
+                
+                <button class="arrow left" id="prev">
+                    <img src="../img/player/arrow_left.svg" alt="Next Music">
+                </button>
+                <img src="../img/music.jpg" class="cover" alt="From One To Nine by Marcel Pequel">
+                
+                <button class="arrow right" id="next">
+                    <img src="../img/player/arrow_right.svg" alt="Next Music">
+                </button>
+            </section>
+            <section class="music-player">
+                <h1 class="music-player__title"></h1>
+                <h2 class="music-player__author"></h2>
+                <div class="music-time">
+                    <p class="music-time__current"></p>
+                    <p class="music-time__last"></p>
+                </div>
+                <div class="music-bar" id="progress">
+                    <div id="length"></div>
+                </div>
+                <div class="music-order">
+                    <div class="music-order__loop is-loop" id="loop">
+                        <img src="../img/player/loop.svg" alt="Loop music">
+                    </div>
+                    <div class="music-order__shuffle" id="shuffle">
+                        <img src="../img/player/shuffle.svg" alt="Shuffle music">
+                    </div>
+                </div>
+                <div class="music-control">
+                    <div class="music-control__backward" id="backward">
+                        <img src="../img/player/backward.svg" alt="Backward">
+                    </div>
+                    <div class="music-control__play" id="play">
+                        <img src="../img/player/play.svg" alt="Play" class="play">
+                    </div>
+                    <div class="music-control__forward" id="forward">
+                        <img src="../img/player/forward.svg" alt="Forward">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<!-- partial -->
+  <script  src="js/sonar_nolok.js"></script> 
+    </div>
+</main>
+<footer>
+    <div data-includeHTML="footer.html"></div>
+</footer>
+<script>
+    $(document).ready(function () {
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
+    });
+</script>
+
+</body>
