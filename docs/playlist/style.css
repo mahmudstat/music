@@ -29,7 +29,7 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
-  background: linear-gradient(-45deg, #FFCDD2 50%, #B2EBF2 50%);
+  background: linear-gradient(60deg, #a31aff 50%, #4da6ff 50%);
 }
 
 div,
@@ -115,7 +115,7 @@ section {
 }
 
 .music-bar {
-  background: #efefef;
+  background: #a31aff;
   stroke-width: 1;
   height: 8px;
   width: 100%;

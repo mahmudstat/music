@@ -1,122 +1,3 @@
-(function IIFE() {
-  const list = [
-  {
-    id: 1,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/01_Allah_namer.mp3",
-    author: "সোনার নোলক",
-    title: "One",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 2,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/02_amar_mayer.mp3",
-    author: "সোনার নোলক",
-    title: "Two",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 3,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/03_tumi_ene_dile.mp3",
-    author: "সোনার নোলক",
-    title: "Three",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 4,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/04_papi_ami.mp3",
-    author: "সোনার নোলক",
-    title: "Four",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 5,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/05_guchiye_rakho.mp3",
-    author: "সোনার নোলক",
-    title: "Five",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 6,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/06_provu_tumi.mp3",
-    author: "সোনার নোলক",
-    title: "Six",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 7,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/07_ami_dhonyo.mp3",
-    author: "সোনার নোলক",
-    title: "Seven",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 8,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/08_ei_dhoroni.mp3",
-    author: "সোনার নোলক",
-    title: "Eight",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 9,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/09_vati_ganger.mp3",
-    author: "সোনার নোলক",
-    title: "Eight",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 10,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/10_chole_gele.mp3",
-    author: "সোনার নোলক",
-    title: "Eight",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 11,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/11_cholona_zaii.mp3",
-    author: "সোনার নোলক",
-    title: "Eight",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 12,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/12_moneri_aynay.mp3",
-    author: "সোনার নোলক",
-    title: "Eight",
-    cover:
-    "../img/player/music.jpg"},
-
-  {
-    id: 13,
-    url:
-    "../songs/group/bikolpo/sonar_nolok/09_vati_ganger.mp3",
-    author: "সোনার নোলক",
-    title: "Nine",
-    cover:
-    "../img/player/music.jpg"}];
-
  let currentId = 0;
   let isPlaying = false;
   let isLoop = true;
@@ -145,7 +26,7 @@
     if (!isPlaying) {
       // console.log('play');
       e.target.src =
-      "../img/player/pause.svg";
+      "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/pause.svg";
       e.target.alt = "Pause";
       isPlaying = true;
       document.getElementById(currentAudio).play();
@@ -153,7 +34,7 @@
     } else {
       // console.log('pause');
       e.target.src =
-      "../img/player/pause.svg";
+      "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/play.svg";
       e.target.alt = "Play";
       document.getElementById(currentAudio).pause();
       isPlaying = false;
@@ -191,7 +72,7 @@
 
   function nextMusic(mode) {
     playBtn.src =
-    "../img/player/play.svg";
+    "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/play.svg";
     playBtn.alt = "Play";
     document.getElementById(currentAudio).pause();
     isPlaying = false;
@@ -233,7 +114,7 @@
 
   function stopMusic() {
     playBtn.src =
-    "../img/player/play.svg";
+    "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/play.svg";
     playBtn.alt = "Play";
     isPlaying = false;
   }
@@ -267,7 +148,7 @@
       // console.log('is loop');
       e.target.parentNode.classList.add("is-loop");
       e.target.src =
-      "../img/player/loop.svg";
+      "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/loop.svg";
       audio.loop = false;
       audio.onended = e => goToNextMusic();
       console.log(isLoop, loopOne);
@@ -277,7 +158,7 @@
       loopOne = true;
       e.target.parentNode.classList.add("is-loop");
       e.target.src =
-      "../img/player/loopone.svg";
+      "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/loopone.svg";
       audio.loop = true;
       audio.onended = e => goToNextMusic();
       console.log(isLoop, loopOne);
@@ -287,7 +168,7 @@
       loopOne = false;
       e.target.parentNode.classList.remove("is-loop");
       e.target.src =
-      "../img/player/loop.svg";
+      "https://snowleo208.github.io/100-Days-of-Code/7.%20Music%20Player/img/loop.svg";
       audio.loop = false;
       audio.onended = e => stopMusic();
       console.log(isLoop, loopOne);
