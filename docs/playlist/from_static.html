@@ -1,15 +1,24 @@
-<html>
- <head>
-  <title>How to include HTML page with jQuery</title>
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' type='text/javascript'></script> 
-  <script type='text/javascript'>
-   $(document).ready(function(){
-    $( "#header" ).load( "header.html" );
-   });
-  </script>
- </head> 
- <body>
-  <div id='header'></div>
-  <div class='content'>Content</div>
- </body>
-</html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+     <div data-includeHTML="header.html"></div>
+</header>
+<main>
+    <div>
+        This is the main content, from the index file
+    </div>
+</main>
+<footer>
+    <div data-includeHTML="footer.html"></div>
+</footer>
+<script>
+    $(document).ready(function () {
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
+    });
+</script>
+
+</body>
