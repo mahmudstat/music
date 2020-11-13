@@ -145,7 +145,7 @@
     if (!isPlaying) {
       // console.log('play');
       e.target.src =
-      "../img/player/pause.svg";
+      "../img/player/play.svg";
       e.target.alt = "Pause";
       isPlaying = true;
       document.getElementById(currentAudio).play();
