@@ -3,7 +3,7 @@
   {
     id: 1,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_01_-_One.mp3",
+    "../../songs/group/bikolpo/sonar_nolok/01 Allah namer.mp3",
     author: "Marcel Pequel",
     title: "One",
     cover:
@@ -12,7 +12,7 @@
   {
     id: 2,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_02_-_Two.mp3",
+    "../../songs/group/bikolpo/sonar_nolok/02 amar mayer.mp3",
     author: "Marcel Pequel",
     title: "Two",
     cover:
@@ -21,7 +21,7 @@
   {
     id: 3,
     url:
-    "http://cdn.atrera.com/audio/Marcel_Pequel_-_03_-_Three.mp3",
+    "../../songs/group/bikolpo/sonar_nolok/03_tumi_ene_dile.mp3",
     author: "Marcel Pequel",
     title: "Three",
     cover:
