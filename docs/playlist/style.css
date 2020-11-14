@@ -207,7 +207,7 @@ section {
     -webkit-box-direction: normal;
             flex-flow: column wrap;
     max-height: inherit;
-    max-width: 270px;
+    max-width: 290px;
     margin: 0 auto;
     overflow: auto;
   }
@@ -227,7 +227,7 @@ section {
     position: relative;
     -webkit-box-flex: 1;
             flex: 1 1 100%;
-    max-width: 270px;
+    max-width: 290px;
     max-height: 270px;
   }
 
