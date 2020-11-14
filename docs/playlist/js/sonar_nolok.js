@@ -5,7 +5,7 @@
     url:
     "../songs/group/bikolpo/sonar_nolok/01_Allah_namer.mp3",
     author: "সোনার নোলক",
-    title: "One",
+    title: "আল্লাহ নামের গানের সুরে",
     cover:
     "../img/player/player.jpg"},
 
@@ -14,108 +14,108 @@
     url:
     "../songs/group/bikolpo/sonar_nolok/02_amar_mayer.mp3",
     author: "সোনার নোলক",
-    title: "2",
+    title: "আমার মায়ের ",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 3,
     url:
     "../songs/group/bikolpo/sonar_nolok/03_tumi_ene_dile.mp3",
     author: "সোনার নোলক",
-    title: "Three",
+    title: "তুমে এনে দিলে",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 4,
     url:
     "../songs/group/bikolpo/sonar_nolok/04_papi_ami.mp3",
     author: "সোনার নোলক",
-    title: "Four",
+    title: "পাপী আমি তাপী আমি",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 5,
     url:
     "../songs/group/bikolpo/sonar_nolok/05_guchiye_rakho.mp3",
     author: "সোনার নোলক",
-    title: "Five",
+    title: "গুছিয়ে রেখো সাদা কাপড়",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 6,
     url:
     "../songs/group/bikolpo/sonar_nolok/06_provu_tumi.mp3",
     author: "সোনার নোলক",
-    title: "Six",
+    title: "প্রভু তুমি দয়া করো",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 7,
     url:
     "../songs/group/bikolpo/sonar_nolok/07_ami_dhonyo.mp3",
     author: "সোনার নোলক",
-    title: "Seven",
+    title: "আমি ধন্য হলাম",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 8,
     url:
     "../songs/group/bikolpo/sonar_nolok/08_ei_dhoroni.mp3",
     author: "সোনার নোলক",
-    title: "Eight",
+    title: "এই ধরনী ঐ যে গগণ",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 9,
     url:
     "../songs/group/bikolpo/sonar_nolok/09_vati_ganger.mp3",
     author: "সোনার নোলক",
-    title: "Eight",
+    title: "ভাটি গাঙের নাইয়া",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 10,
     url:
     "../songs/group/bikolpo/sonar_nolok/10_chole_gele.mp3",
     author: "সোনার নোলক",
-    title: "Eight",
+    title: "চলে গেলে যেদিন তুমি",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 11,
     url:
     "../songs/group/bikolpo/sonar_nolok/11_cholona_zaii.mp3",
     author: "সোনার নোলক",
-    title: "Eight",
+    title: "চল না যাই ঘুরে আসি",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 12,
     url:
     "../songs/group/bikolpo/sonar_nolok/12_moneri_aynay.mp3",
     author: "সোনার নোলক",
-    title: "Eight",
+    title: "মনেরি আয়নায়",
     cover:
-    "../img/player/music.jpg"},
+    "../img/player/player.jpg"},
 
   {
     id: 13,
     url:
-    "../songs/group/bikolpo/sonar_nolok/09_vati_ganger.mp3",
+    "../songs/group/bikolpo/sonar_nolok/13_bdr_matite.mp3",
     author: "সোনার নোলক",
-    title: "Nine",
+    title: "বাংলাদেশের মাটিতে",
     cover:
-    "../img/player/music.jpg"}];
+    "../img/player/player.jpg"}];
 
  let currentId = 0;
   let isPlaying = false;
