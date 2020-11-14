@@ -24,7 +24,7 @@
                 <button class="arrow left" id="prev">
                     <img src="../img/player/arrow_left.svg" alt="আগের সঙ্গীত">
                 </button>
-                <img src="../img/music.jpg" class="cover" alt="সোনার নোলক">
+                <img id="getImage" src="../img/music.jpg" class="cover" alt="সোনার নোলক">
                 
                 <button class="arrow right" id="next">
                     <img src="../img/player/arrow_right.svg" alt="পরের সঙ্গীত">
@@ -53,7 +53,7 @@
                         <img src="../img/player/backward.svg" alt="একটু পেছনে">
                     </div>
                     <div class="music-control__play" id="play">
-                        <img src="../img/player/play.svg" alt="প্লে" class="play">
+                        <img onclick="imagefun()" src="../img/player/play.svg" alt="প্লে" class="play">
                     </div>
                     <div class="music-control__forward" id="forward">
                         <img src="../img/player/forward.svg" alt="একটু সামনে">
@@ -64,6 +64,7 @@
     </div>
 <!-- partial -->
   <script  src="js/sonar_nolok.js"></script> 
+  <script  src="js/change_player.js"></script> 
     </div>
 </main>
 <footer>

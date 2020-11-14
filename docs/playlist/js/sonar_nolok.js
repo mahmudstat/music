@@ -7,7 +7,7 @@
     author: "সোনার নোলক",
     title: "One",
     cover:
-    "../img/player/player.gif"},
+    "../img/player/player.jpg"},
 
   {
     id: 2,
