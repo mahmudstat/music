@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Sample Music Player</title>
+  <title>সোনার নোলক || বিকল্প সাহিত্য সাংস্কৃতিক সংসদ</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="top.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
+<header>
+     <div data-includeHTML="header.html"></div>
+</header>
 
-<!--Menu -->
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
+<main>
+    <div>
 
 <!-- partial:index.partial.html -->
 <div class="c-containter">
@@ -35,12 +22,12 @@
             <section class="album-cover">
                 
                 <button class="arrow left" id="prev">
-                    <img src="../img/player/arrow_left.svg" alt="Next Music">
+                    <img src="../img/player/arrow_left.svg" alt="আগের সঙ্গীত">
                 </button>
-                <img src="../img/music.jpg" class="cover" alt="From One To Nine by Marcel Pequel">
+                <img id="getImage" src="../img/music.jpg" class="cover" alt="সোনার নোলক">
                 
                 <button class="arrow right" id="next">
-                    <img src="../img/player/arrow_right.svg" alt="Next Music">
+                    <img src="../img/player/arrow_right.svg" alt="পরের সঙ্গীত">
                 </button>
             </section>
             <section class="music-player">
@@ -55,29 +42,41 @@
                 </div>
                 <div class="music-order">
                     <div class="music-order__loop is-loop" id="loop">
-                        <img src="../img/player/loop.svg" alt="Loop music">
+                        <img src="../img/player/loop.svg" alt="পুনরাবৃত্তি">
                     </div>
                     <div class="music-order__shuffle" id="shuffle">
-                        <img src="../img/player/shuffle.svg" alt="Shuffle music">
+                        <img src="../img/player/shuffle.svg" alt="এলোমেলো">
                     </div>
                 </div>
                 <div class="music-control">
                     <div class="music-control__backward" id="backward">
-                        <img src="../img/player/backward.svg" alt="Backward">
+                        <img src="../img/player/backward.svg" alt="একটু পেছনে">
                     </div>
                     <div class="music-control__play" id="play">
-                        <img src="../img/player/play.svg" alt="Play" class="play">
+                        <img onclick="imagefun()" src="../img/player/play.svg" alt="প্লে" class="play">
                     </div>
                     <div class="music-control__forward" id="forward">
-                        <img src="../img/player/forward.svg" alt="Forward">
+                        <img src="../img/player/forward.svg" alt="একটু সামনে">
                     </div>
                 </div>
             </section>
         </div>
-        <p class="disclaimer">Website Made by Ahmad. Design idea from <a href="https://dribbble.com/shots/2315906-Music-player-PSD-freebie-dailyui-Day-009" target="_blank" rel="noopener">Dima Blover</a></p>
     </div>
 <!-- partial -->
-  <script  src="js/sonar_nolok.js"></script>
-  <script  src="js/top.js"></script> 
+  <script  src="js/devtool.js"></script> 
+  <script  src="js/change_player.js"></script> 
+    </div>
+</main>
+<footer>
+    <div data-includeHTML="footer.html"></div>
+</footer>
+<script>
+    $(document).ready(function () {
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
+    });
+</script>
+
 </body>
 </html>
