@@ -98,9 +98,17 @@
     title: "সেই কালো মুখ",
     cover:
     "../img/player/player.jpg"},
+{
+    id: 12,
+    url:
+    "https://drive.google.com/file/d/1eSVqZIvbgAWzv34NjRo4wqEp-kj8ngIG/view",
+    author: "কাবার পথিক",
+    title: "সেই কালো মুখ",
+    cover:
+    "../img/player/player.jpg"},
 
   {
-    id: 12,
+    id: 13,
     url:
     "../songs/group/probaho/kabar_pothik/tomar_shilphi.mp3",
     author: "কাবার পথিক",
