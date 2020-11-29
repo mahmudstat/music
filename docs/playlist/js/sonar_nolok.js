@@ -194,7 +194,7 @@
     "../img/player/play.svg";
     playBtn.alt = "Play";
     document.getElementById(currentAudio).pause();
-    isPlaying = false;
+    isPlaying = true;
     clearInterval(timer);
 
     if (mode === "next") {
