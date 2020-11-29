@@ -2,119 +2,111 @@
   const list = [
   {
     id: 1,
-    url:
-    "../songs/group/probaho/kabar_pothik/akash_digonto.mp3",
-    author: "কাবার পথিক",
-    title: "আকাশ দিগন্ত",
-    cover:
-    "../img/player/player.jpg"},
+    url: 
+    "../songs/group/ujjibon/protyashar_alo/01_theme_ei_mati_ful.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "এই মাটি আর এই আকাশ",
+    cover: "../img/player/player.jpg"},
 
   {
-    id: 2,
-    url:
-    "../songs/group/probaho/kabar_pothik/alo_batas.mp3",
-    author: "কাবার পথিক",
-    title: "আলো বাতাস পানি ছাড়া",
-    cover:
-    "../img/player/player.jpg"},
+ id: 2,
+    url: "../songs/group/ujjibon/protyashar_alo/02_noyonaviram.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "নয়নাভিরাম",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 3,
-    url:
-    "../songs/group/probaho/kabar_pothik/din_duniar.mp3",
-    author: "কাবার পথিক",
-    title: "দিন দুনিয়ার মালিক",
+    url: "../songs/group/ujjibon/protyashar_alo/03_dur_arober.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "দূর আরবের মরুর বুকে",
     cover:
     "../img/player/player.jpg"},
 
   {
     id: 4,
     url:
-    "../songs/group/probaho/kabar_pothik/du_dhari_sobujh.mp3",
-    author: "কাবার পথিক",
-    title: "দুধারি সবুজ",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/04_ei_se_sonar_desh.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "এই সে সোনার দেশ",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 5,
-    url:
-    "../songs/group/probaho/kabar_pothik/dure_thaki.mp3",
-    author: "কাবার পথিক",
-    title: "দূরে থাকি",
+    url: "../songs/group/ujjibon/protyashar_alo/05_holud_paki.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "হলুদ পাখি",
     cover:
     "../img/player/player.jpg"},
 
   {
     id: 6,
     url:
-    "../songs/group/probaho/kabar_pothik/jibon_khatar.mp3",
-    author: "কাবার পথিক",
-    title: "জীবন খাতার ছেঁড়া পাতার",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/06_kothay_zeno.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "কোথায় যেন হারিয়ে গেল",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 7,
     url:
-    "../songs/group/probaho/kabar_pothik/morur_dhuli.mp3",
-    author: "কাবার পথিক",
-    title: "মরুর ধূলি",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/07_sara_din_tomari.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "সারা দিন তোমারি",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 8,
     url:
-    "../songs/group/probaho/kabar_pothik/nil_sagorer.mp3",
-    author: "কাবার পথিক",
-    title: "নীল সাগরের কোল",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/08_jibon_zuddhe.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "জীবন যুদ্ধে বীর পুরুষের",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 9,
     url:
-    "../songs/group/probaho/kabar_pothik/o_torir_naiya.mp3",
-    author: "কাবার পথিক",
-    title: "ও তরীর নাইয়া",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/09_ke_diyeche.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "কে দিয়েছে",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 10,
     url:
-    "../songs/group/probaho/kabar_pothik/ogonito_jonoter.mp3",
-    author: "কাবার পথিক",
-    title: "অগণিত জনতার",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/10_sokol_kichur.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "সকল কিছুর স্রষ্টা",
+    cover: "../img/player/player.jpg"},
 
   {
     id: 11,
     url:
-    "../songs/group/probaho/kabar_pothik/sei_kalo_mukh.mp3",
-    author: "কাবার পথিক",
-    title: "সেই কালো মুখ",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/11_hajar_dukho.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "হাজার দুঃখ তাপে",
+    cover: "../img/player/player.jpg"},
 {
     id: 12,
     url:
-    "https://drive.google.com/file/d/1eSVqZIvbgAWzv34NjRo4wqEp-kj8ngIG/view",
-    author: "কাবার পথিক",
-    title: "সেই কালো মুখ",
-    cover:
-    "../img/player/player.jpg"},
+    "../songs/group/ujjibon/protyashar_alo/12_ze_desh_amar.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "যে দেশ আমার জন্মভূমি",
+    cover: "../img/player/player.jpg"},
 
-  {
     id: 13,
     url:
-    "../songs/group/probaho/kabar_pothik/tomar_shilphi.mp3",
-    author: "কাবার পথিক",
-    title: "তোমার শিল্পী করে",
-    cover:
-    "../img/player/player.jpg"}];
+    "../songs/group/ujjibon/protyashar_alo/13_eto_shok_keno.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "এতো সুখ",
+    cover: "../img/player/player.jpg"},
+
+  {
+    id: 14,
+    url:"../songs/group/ujjibon/protyashar_alo/14_digonto_nil_chuyen.mp3",
+    author: "প্রত্যাশার আলো",
+    title: "দিগন্ত নীল ছুঁয়ে আমরা সবাই",
+    cover: "../img/player/player.jpg"}];
 
  let currentId = 0;
   let isPlaying = false;

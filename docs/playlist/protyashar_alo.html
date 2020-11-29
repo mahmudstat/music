@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>প্রত্যাশার আলো | উজ্জীবন শিল্পিগোষ্ঠী</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="top.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+<header>
+     <div data-includeHTML="menu.html"></div>
+</header>
+
+
+<main>
+    <div>
+
+<!-- partial:index.partial.html -->
+<div class="c-containter">
+        <div class="music-container">
+            <section class="album-cover">
+                
+                <button class="arrow left" id="prev">
+                    <img src="../img/player/arrow_left.svg" alt="আগের সঙ্গীত">
+                </button>
+                <img id="getImage" src="../img/player/music.jpg" class="cover" alt="প্রত্যাশার আলো">
+                
+                <button class="arrow right" id="next">
+                    <img src="../img/player/arrow_right.svg" alt="পরের সঙ্গীত">
+                </button>
+            </section>
+            <section class="music-player">
+                <h1 class="music-player__title"></h1>
+                <h2 class="music-player__author"></h2>
+                <div class="music-time">
+                    <p class="music-time__current"></p>
+                    <p class="music-time__last"></p>
+                </div>
+                <div class="music-bar" id="progress">
+                    <div id="length"></div>
+                </div>
+                <div class="music-order">
+                    <div class="music-order__loop is-loop" id="loop">
+                        <img src="../img/player/loop.svg" alt="পুনরাবৃত্তি">
+                    </div>
+                    <div class="music-order__shuffle" id="shuffle">
+                        <img src="../img/player/shuffle.svg" alt="এলোমেলো">
+                    </div>
+                </div>
+                <div class="music-control">
+                    <div class="music-control__backward" id="backward">
+                        <img src="../img/player/backward.svg" alt="একটু পেছনে">
+                    </div>
+                    <div class="music-control__play" id="play">
+                        <img onclick="imagefun()" src="../img/player/play.svg" alt="প্লে" class="play">
+                    </div>
+                    <div class="music-control__forward" id="forward">
+                        <img src="../img/player/forward.svg" alt="একটু সামনে">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<!-- partial -->
+  <script  src="js/pro_alo.js"></script> 
+  <script  src="js/change_player.js"></script> 
+    </div>
+</main>
+<footer>
+    <div data-includeHTML="footer.html"></div>
+</footer>
+<script>
+    $(document).ready(function () {
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
+    });
+</script>
+
+</body>
+</html>
