@@ -2,7 +2,7 @@
 
 body {
 	background-color: #c61aff;
-	color: #ffff00;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	margin:0px;
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-	color: #ffff00;
+	color: black;
 }
 ol, ul {
 	list-style: none;
@@ -90,7 +90,7 @@ ol, ul {
 }
 
 #main-menu > li > a {
-	color: #ffff00;
+	color: black;
 	font-size: 14px;
 	line-height: 14px;
 	padding: 30px 0;
@@ -99,7 +99,7 @@ ol, ul {
 
 #main-menu > li:hover > a,
 #main-menu > li.current-menu-item > a {
-	color: #ffff00;
+	color: black;
 }
 
 /* HEADER > MENU > DROPDOWN */
@@ -128,7 +128,7 @@ ul.sub-menu > li > a {
 	background-color: #c61aff;
 	border: 1px solid #e699ff;
 	border-top: none;
-	color: #ffff00;
+	color: black;
 	display: block;
 	font-size: 12px;
 	line-height: 15px;
@@ -137,7 +137,7 @@ ul.sub-menu > li > a {
 
 ul.sub-menu > li > a:hover {
 	background-color: #c61aff; 
-	color: #ffff00;
+	color: black;
 }
 
 ul.sub-menu > li:first-child {
@@ -196,7 +196,7 @@ ul.sub-menu > li > a.parent {
 	#main-menu > li > a {
 		background-color: #c61aff;
 		border: 1px solid #e699ff;
-		color: #ffff00;
+		color: black;
 		display: block;
 		font-size: 14px;
 		padding: 12px !important;
