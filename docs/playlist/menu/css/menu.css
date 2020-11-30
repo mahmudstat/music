@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-	background-color: white;
-	color: #666;
+	background-color: #c61aff;
+	color: #ffff00;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	margin:0px;
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-	color: #990099;
+	color: #ffff00;
 }
 ol, ul {
 	list-style: none;
@@ -46,7 +46,7 @@ ol, ul {
 
 /* HEADER */
 #wrap > header {
-	background-color: white;
+	background-color: #c61aff;
 	padding-bottom: 20px;
 }
 .logo {
@@ -90,7 +90,7 @@ ol, ul {
 }
 
 #main-menu > li > a {
-	color: #3385ff;
+	color: #ffff00;
 	font-size: 14px;
 	line-height: 14px;
 	padding: 30px 0;
@@ -99,7 +99,7 @@ ol, ul {
 
 #main-menu > li:hover > a,
 #main-menu > li.current-menu-item > a {
-	color: #23dbdb;
+	color: #ffff00;
 }
 
 /* HEADER > MENU > DROPDOWN */
@@ -125,10 +125,10 @@ ul.sub-menu ul.sub-menu { /* level 3+ */
 }
 
 ul.sub-menu > li > a {
-	background-color: #0080ff;
-	border: 1px solid #444;
+	background-color: #c61aff;
+	border: 1px solid #e699ff;
 	border-top: none;
-	color: #bbb;
+	color: #ffff00;
 	display: block;
 	font-size: 12px;
 	line-height: 15px;
@@ -136,16 +136,16 @@ ul.sub-menu > li > a {
 }
 
 ul.sub-menu > li > a:hover {
-	background-color: #0066ff; 
-	color: #fff;
+	background-color: #c61aff; 
+	color: #ffff00;
 }
 
 ul.sub-menu > li:first-child {
-	border-top: 3px solid #23dbdb;
+	border-top: 1px solid #23dbdb;
 }
 
 ul.sub-menu ul.sub-menu > li:first-child {
-	border-top: 1px solid #444;
+	border-top: 1px solid #e699ff;
 }
 
 ul.sub-menu > li:last-child > a {
@@ -153,7 +153,7 @@ ul.sub-menu > li:last-child > a {
 }
 
 ul.sub-menu > li > a.parent {
-	background-image: url(../images/arrow.png);
+	background-color: #c61aff;
 	background-size: 5px 9px;
 	background-repeat: no-repeat;
 	background-position: 95% center;
@@ -194,9 +194,9 @@ ul.sub-menu > li > a.parent {
 	}
 
 	#main-menu > li > a {
-		background-color: #333;
-		border: 1px solid #444;
-		color: #bbb;
+		background-color: #c61aff;
+		border: 1px solid #e699ff;
+		color: #ffff00;
 		display: block;
 		font-size: 14px;
 		padding: 12px !important;
@@ -204,7 +204,7 @@ ul.sub-menu > li > a.parent {
 	}
 
 	#main-menu li > a:hover {
-		background-color: #444; 
+		background-color: #c61aff; 
 	}
 
 	#main-menu > li.parent {
@@ -214,8 +214,8 @@ ul.sub-menu > li > a.parent {
 
 	#main-menu > li:hover > a,
 	#main-menu > li.current-menu-item > a {
-		border: 1px solid #444 !important;
-		color: #fff !important;
+		border: 1px solid #e699ff !important;
+		color: #ffff00 !important;
 	}
 
 	ul.sub-menu {
@@ -228,10 +228,10 @@ ul.sub-menu > li > a.parent {
 	}
 
 	ul.sub-menu > li:first-child {
-		border-top: 1px solid #444 !important;
+		border-top: 1px solid #e699ff !important;
 	}
 
 	ul.sub-menu > li > a.parent {
-		background: #333 !important;
+		background-color: #c61aff; !important;
 	}
 }
