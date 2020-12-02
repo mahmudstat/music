@@ -202,5 +202,12 @@
     <script src="index/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
     <script src="index/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="index/js/scripts.js"></script> <!-- Custom scripts -->
+<script>
+    $(document).ready(function () {
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
+    });
+</script>
 </body>
 </html>
