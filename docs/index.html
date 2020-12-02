@@ -1,93 +1,206 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>আলোময় সঙ্গীত | হোম</title>
-<link rel="stylesheet" href="playlist/style.css">
-<link rel="stylesheet" href="playlist/top.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="আলোময় সঙ্গীত দেশসেরা শিল্পী ও শিল্পীগোষ্ঠীদের পরিবেশিত সেরাসব গানের অনলাইন প্লেলিস্ট">
+    <meta name="author" content="Inovatik">
 
-<body>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Webpage Title -->
+    <title>আলোময় সঙ্গীত</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="index/css/bootstrap.css" rel="stylesheet">
+    <link href="index/css/fontawesome-all.css" rel="stylesheet">
+    <link href="index/css/swiper.css" rel="stylesheet">
+	<link href="index/css/magnific-popup.css" rel="stylesheet">
+	<link href="index/css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="index/images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
 <header>
      <div data-includeHTML="playlist/nav.html"></div>
 </header>
-<h1>Welcome to Alomoy Songs!!</h1>
-<p> This is a sample playlist. Choose others from the menu</p>
+<!--Singers -->
 
-<main>
-    <div>
+<h1> দেশসেরা ইসলামী সঙ্গীত </h1>
 
-<!-- partial:index.partial.html -->
-<div class="c-containter">
-        <div class="music-container">
-            <section class="album-cover">
-                
-                <button class="arrow left" id="prev">
-                    <img src="img/player/arrow_left.svg" alt="Next Music">
-                </button>
-                <img id="getImage" src="img/player/player.jpg" class="cover" alt="সোনার নোলক">
-                
-                <button class="arrow right" id="next">
-                    <img src="img/player/arrow_right.svg" alt="Next Music">
-                </button>
-            </section>
-            <section class="music-player">
-                <h1 class="music-player__title"></h1>
-                <h2 class="music-player__author"></h2>
-                <div class="music-time">
-                    <p class="music-time__current"></p>
-                    <p class="music-time__last"></p>
-                </div>
-                <div class="music-bar" id="progress">
-                    <div id="length"></div>
-                </div>
-                <div class="music-order">
-                    <div class="music-order__loop is-loop" id="loop">
-                        <img src="img/player/loop.svg" alt="Loop music">
-                    </div>
-                    <div class="music-order__shuffle" id="shuffle">
-                        <img src="img/player/shuffle.svg" alt="Shuffle music">
-                    </div>
-                </div>
-                <div class="music-control">
-                    <div class="music-control__backward" id="backward">
-                        <img src="img/player/backward.svg" alt="Backward">
-                    </div>
-                    <div class="music-control__play" id="play">
-                        <img onclick="imagefun()" src="img/player/play.svg" alt="Play" class="play">
-                    </div>
-                    <div class="music-control__forward" id="forward">
-                        <img src="img/player/forward.svg" alt="Forward">
-                    </div>
-                </div>
-            </section>
-        </div>
-    <div data-includeHTML="playlist/footer.html"></div>
-    </div>
-<!-- partial -->
+    <div class="slider-1 bg-dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
 
-    </div>
-</main>
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="index/images/mollik2.jpg" alt="alternative">
+                                        <div class="card-body">
+<p class="testimonial-text">মতিউর রহমান মল্লিক</p>
+                                            <p class="testimonial-author">সুস্থ সংস্কৃতি চর্চার পথিকৃৎ</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="index/images/thkhan.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">তোফাজ্জল হোসাইন খান</p>
+                                            <p class="testimonial-author">বাংলাদেশে সুস্থ সংস্কৃতির বিকাশে যিনি নিরবে কাজ করে গেছেন</p>
+                                        </div>
+                                    </div>        
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="index/images/tariq.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">তারিক মুনাওয়ার</p>
+                                            <p class="testimonial-author">সাইমুমের সাবেক পরিচালক, গীতিকার, সুরকার, শিল্পী ও ইসলামী চিন্তাবিদ</p>
+                                        </div>
+                                    </div>        
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="index/images/smansur.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">সাইফুল্লাহ মানসুর</p>
+                                            <p class="testimonial-author">কবি মতিউর রহমান মল্লিক ঠিক যেমন শিল্পী তৈরি করতে চেয়েছিলেন</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="index/images/moshiur.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">মশিউর রহমান</p>
+                                            <p class="testimonial-author">সুরসম্রাট, যিনি গেয়েছেন ও সুর করেছেন ২,৫০০ এর বেশি গানে</p>
+                                        </div>
+                                    </div>        
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of testimonials -->
+
+    <!-- Footer -->
+    <div class="footer bg-dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-col first">
+                        <h6>About</h6>
+                        <p class="p-small">আলোময় সঙ্গীত দেশসেরা শিল্পী ও শিল্পীগোষ্ঠীদের পরিবেশিত সেরাসব গানের অনলাইন প্লেলিস্ট</p>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col second">
+                        <h6>Links</h6>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li>Important: <a href="#">Terms & Conditions</a>, <a href="#">Privacy Policy</a></li>
+                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
+                            <li>Menu: <a href="#">Article</a>, <a href="#">Features</a>, <a href="#">Pricing</a>, <a href="#">Contact</a></li>
+                        </ul>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col third">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <p class="p-small">We would love to hear from you <a href="mailto:আলোময় সঙ্গীত দেশসেরা শিল্পী ও শিল্পীগোষ্ঠীদের পরিবেশিত সেরাসব গানের অনলাইন প্লেলিস্ট"><strong>alomoyinfo@gmail.com</strong></a></p>
+                    </div> <!-- end of footer-col -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
 
 
-  <script  src="index.js"></script> 
-
-<script>
-    $(document).ready(function () {
-        $("div[data-includeHTML]").each(function () {                
-            $(this).load($(this).attr("data-includeHTML"));
-        });
-    });
-</script>
-
-<script>
-        function imagefun() {
-            var Image_Id = document.getElementById('getImage');
-            if (Image_Id.src.match("img/player/player.jpg")) {
-                Image_Id.src = "img/player/player.gif";
-            }
-            else {
-                Image_Id.src = "img/player/player.jpg";
-            }
-        } 
-</script>
+    <!-- Copyright -->
+    <div class="copyright bg-dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <a href="#">আলোময় সঙ্গীত</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="index/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="index/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="index/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="index/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="index/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="index/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="index/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="index/js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
