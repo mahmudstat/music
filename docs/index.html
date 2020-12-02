@@ -9,7 +9,7 @@
 
 <body>
 <header>
-     <div data-includeHTML="playlist/menu.html"></div>
+     <div data-includeHTML="playlist/nav.html"></div>
 </header>
 <h1>Welcome to Alomoy Songs!!</h1>
 <p> This is a sample playlist. Choose others from the menu</p>
@@ -62,6 +62,7 @@
                 </div>
             </section>
         </div>
+    <div data-includeHTML="playlist/footer.html"></div>
     </div>
 <!-- partial -->
 
@@ -71,9 +72,6 @@
 
   <script  src="index.js"></script> 
 
-<footer>
-    <div data-includeHTML="playlist/footer.html"></div>
-</footer>
 <script>
     $(document).ready(function () {
         $("div[data-includeHTML]").each(function () {                
